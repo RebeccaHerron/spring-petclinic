@@ -112,7 +112,7 @@ public class ValidatorSpockTests extends Specification {
 	  violation.getMessage().equals("may not be empty");
 	}
 	
-	// 6. TODO: validate a against a valid last name (non-empty, non-null value).
+	// 6. validate a against a valid last name (non-empty, non-null value).
 	def "last name can be valid"() {
 	  setup:
 	  def person = new Person();
